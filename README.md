@@ -56,9 +56,7 @@ yum install pip
 
 pip install poetry
 
-poetry install
-
-pip install --editable .
+pip install --editable . (--editable flag required)
 
 # View commands
 awscli -h
