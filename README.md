@@ -4,6 +4,7 @@
 
 A Python CLI that allows developers to manage AWS resources (EC2, S3, Route53). 
 
+Check the consts file for editing defaults and tags
 
 
 ## Table of contents
