@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "awscli"
+version = "0.1.0"
+description = ""
+authors = ["doron266 doronw90@gmail.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+click = ">=8.1.7"
+python = ">=3.9"
+boto3 = ">=1.40"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+
+awscli = "awscli:cli"
