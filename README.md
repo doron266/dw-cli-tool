@@ -50,7 +50,7 @@ Tags:
 # Clone this repo
 git clone https://github.com/doron266/cli-tool.git
 
-cd cli-tool/cli-tool
+cd dw-cli-tool
 
 yum install pip
 
